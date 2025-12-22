@@ -43,7 +43,7 @@ architecture Behavioral of TOP is
     end component;
 begin
 
-contador_i <= (others => '0');
+contador<= contador_i;
         inst_SYNC: SYNC port map(
              CLK => CLK,
              ASYNC_IN => PUSHBUTTON,
