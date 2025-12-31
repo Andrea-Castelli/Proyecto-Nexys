@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Dec 22 10:49:31 2025
+# Process ID: 19372
+# Current directory: C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25472 C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.xpr
+# Log file: C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/vivado.log
+# Journal file: C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1\vivado.jou
+# Running On        :DESKTOP-R0MFH1K
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26200
+# Processor Detail  :11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+# CPU Frequency     :2419 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :16858 MB
+# Swap memory       :3355 MB
+# Total Virtual     :20213 MB
+# Available Virtual :7862 MB
+#-----------------------------------------------------------sstart_guiopen_project {C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.xpr}
+uupdate_compile_order -fileset sources_1file mkdir C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sim_1/new
+file mkdir C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sim_1/new
+file mkdir C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sim_1/new
+file mkdir C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sim_1/new
+file mkdir C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sim_1/new
+file mkdir {C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sim_1/new}
+close [ open {C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sim_1/new/TOP_tb.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sim_1/new/TOP_tb.vhd}}
+update_compile_order -fileset sim_1
+launch_simulation
+source TOP_TB.tcl
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source TOP_TB.tcl
+close_sim
+launch_simulation
+launch_simulation
+source TOP_TB.tcl
+synth_design -top TOP -part xc7a100tcsg324-1 -lint 
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim
