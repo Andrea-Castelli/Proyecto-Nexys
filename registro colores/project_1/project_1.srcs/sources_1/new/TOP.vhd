@@ -15,10 +15,13 @@ end TOP;
 
 architecture Behavioral of TOP is
     signal sync_suma_i: std_logic;
-    signal edge_suma_i: std_logic;
+    --signal edge_suma_i: std_logic;
     signal sync_resta_i: std_logic;
-    signal edge_resta_i: std_logic;
+    --signal edge_resta_i: std_logic;
     signal contador_i: std_logic_vector(contador'range);
+    
+    signal tick_suma_i: std_logic;
+    signal tick_resta_i: std_logic;
     
     component SYNC
         port (
@@ -28,11 +31,23 @@ architecture Behavioral of TOP is
          );
     end component;
     
-    component DETECTOR_FLANCO
+--    component DETECTOR_FLANCO
+--        port (
+--            CLK : in std_logic;
+--            SYNC_IN : in std_logic;
+--            EDGE : out std_logic
+--        );
+--    end component;
+    
+    component TEMPORIZADOR_BOTONES
+        generic (
+            PERIODO_MS : integer := 50
+        );
         port (
-            CLK : in std_logic;
-            SYNC_IN : in std_logic;
-            EDGE : out std_logic
+            clk    : in std_logic;
+            rst_n  : in std_logic;
+            enable : in std_logic;
+            tick   : out std_logic
         );
     end component;
     
@@ -61,23 +76,42 @@ inst_SYNC_RESTA: SYNC port map(
 );
         
 
-inst_DETECTOR_FLANCO_SUMA: DETECTOR_FLANCO port map(
-    CLK => CLK,
-    SYNC_IN => sync_suma_i,
-    EDGE =>edge_suma_i
-);
+--inst_DETECTOR_FLANCO_SUMA: DETECTOR_FLANCO port map(
+--    CLK => CLK,
+--    SYNC_IN => sync_suma_i,
+--    EDGE =>edge_suma_i
+--);
 
-inst_DETECTOR_FLANCO_RESTA: DETECTOR_FLANCO port map(
-    CLK => CLK,
-    SYNC_IN => sync_resta_i,
-    EDGE =>edge_resta_i
-);
+--inst_DETECTOR_FLANCO_RESTA: DETECTOR_FLANCO port map(
+--    CLK => CLK,
+--    SYNC_IN => sync_resta_i,
+--    EDGE =>edge_resta_i
+--);
+
+    inst_TEMP_SUMA: TEMPORIZADOR_BOTONES
+        generic map (PERIODO_MS => 50)
+        port map (
+            clk    => clk,
+            rst_n  => rst,
+            enable => sync_suma_i,
+            tick   => tick_suma_i
+        );
+    
+    inst_TEMP_RESTA: TEMPORIZADOR_BOTONES
+        generic map (PERIODO_MS => 50)
+        port map (
+            clk    => clk,
+            rst_n  => rst,
+            enable => sync_resta_i,
+            tick   => tick_resta_i
+        );
+    
         
 inst_REGISTRO: REGISTRO PORT MAP (
     CLK => clk,
     cuenta => contador_i,
-    CE_SUMA => sync_suma_i,
-    CE_RESTA => sync_resta_i,
+    CE_SUMA => tick_suma_i,
+    CE_RESTA => tick_resta_i,
     RST_N => rst
         );
 
