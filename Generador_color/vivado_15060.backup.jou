@@ -3,10 +3,10 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Sun Jan 11 10:53:47 2026
-# Process ID: 7692
+# Start of session at: Tue Dec 23 16:41:31 2025
+# Process ID: 15060
 # Current directory: C:/Users/eagle/Desktop/DaniF/Universidad/SED/TRABAJO FPGA/GitHubFPGA/Proyecto-Nexys/Generador_color
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27508 C:\Users\eagle\Desktop\DaniF\Universidad\SED\TRABAJO FPGA\GitHubFPGA\Proyecto-Nexys\Generador_color\Generador_color.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22160 C:\Users\eagle\Desktop\DaniF\Universidad\SED\TRABAJO FPGA\GitHubFPGA\Proyecto-Nexys\Generador_color\Generador_color.xpr
 # Log file: C:/Users/eagle/Desktop/DaniF/Universidad/SED/TRABAJO FPGA/GitHubFPGA/Proyecto-Nexys/Generador_color/vivado.log
 # Journal file: C:/Users/eagle/Desktop/DaniF/Universidad/SED/TRABAJO FPGA/GitHubFPGA/Proyecto-Nexys/Generador_color\vivado.jou
 # Running On        :Eagle2727
@@ -19,8 +19,15 @@
 # Host memory       :16934 MB
 # Swap memory       :5905 MB
 # Total Virtual     :22840 MB
-# Available Virtual :8416 MB
+# Available Virtual :8675 MB
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Users/eagle/Desktop/DaniF/Universidad/SED/TRABAJO FPGA/GitHubFPGA/Proyecto-Nexys/Generador_color/Generador_color.xpr}
 update_compile_order -fileset sources_1
+close [ open {C:/Users/eagle/Desktop/DaniF/Universidad/SED/TRABAJO FPGA/GitHubFPGA/Proyecto-Nexys/Generador_color/Generador_color.srcs/sources_1/new/pwm.vhd} w ]
+add_files {{C:/Users/eagle/Desktop/DaniF/Universidad/SED/TRABAJO FPGA/GitHubFPGA/Proyecto-Nexys/Generador_color/Generador_color.srcs/sources_1/new/pwm.vhd}}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/eagle/Desktop/DaniF/Universidad/SED/TRABAJO FPGA/GitHubFPGA/Proyecto-Nexys/Generador_color/Generador_color.srcs/sim_1/new/pwm_tb.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/eagle/Desktop/DaniF/Universidad/SED/TRABAJO FPGA/GitHubFPGA/Proyecto-Nexys/Generador_color/Generador_color.srcs/sim_1/new/pwm_tb.vhd}}
+update_compile_order -fileset sim_1
