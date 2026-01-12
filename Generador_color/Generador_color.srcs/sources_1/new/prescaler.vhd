@@ -39,7 +39,7 @@ entity prescaler is
 end prescaler;
 
 architecture Behavioral of prescaler is
-signal cnt : integer range 0 to 9 := 0;
+signal cnt : integer range 0 to 9 := 0; --poner el doble en este caso 0 to 19
 signal clk_aux: std_logic := '0';
 begin
 process (clk)
