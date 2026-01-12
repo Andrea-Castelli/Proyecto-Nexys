@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../Generador_color.srcs/sources_1/new/prescaler.vhd" \
-"../../../../Generador_color.srcs/sim_1/new/prescaler_tb.vhd" \
-
-# Do not sort compile order
-nosort
