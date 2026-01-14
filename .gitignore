@@ -1,0 +1,30 @@
+# Ignorar todo primero
+*
+!*/
+!.gitignore
+
+# EXCEPCIONES: Lo que SÍ queremos guardar
+!*.vhd
+!*.v
+!*.sv
+!*.xdc
+!*.xpr
+!*.xci
+!*.bd
+!*.tcl
+!*.txt
+!*.pdf
+!README.md
+
+# Ignorar específicamente carpetas pesadas de Vivado
+*.runs/
+*.hw/
+*.ip_user_files/
+*.cache/
+*.sim/
+
+# Ignorar archivos temporales de texto
+*.jou
+*.log
+*.backup
+
