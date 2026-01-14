@@ -3,10 +3,10 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Tue Dec 30 21:42:59 2025
-# Process ID: 8376
+# Start of session at: Sun Jan 11 20:15:07 2026
+# Process ID: 7260
 # Current directory: C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13908 C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16232 C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.xpr
 # Log file: C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/vivado.log
 # Journal file: C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1\vivado.jou
 # Running On        :DESKTOP-R0MFH1K
@@ -19,9 +19,9 @@
 # Host memory       :16858 MB
 # Swap memory       :3355 MB
 # Total Virtual     :20213 MB
-# Available Virtual :7839 MB
-#-----------------------------------------------------------sstart_guiopen_project {C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.xpr}
-INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+# Available Virtual :8060 MB
+#-----------------------------------------------------------
+sstart_guioopen_project {C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.xpr}INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
 Current project path is 'C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1'
 WWARNING: [Board 49-26] cannot add Board Part xilinx.com:k24c:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k24c/1.0/board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24i:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k24i/1.0/board.xml as part xck24-ubva530-2lvi-i specified in board_part file is either invalid or not available
@@ -107,10 +107,290 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 avail
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not availableIINFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.gen/sources_1'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.gen/sources_1'.
 Scanning sources...
-Finished scanning sourcesIINFO: [IP_Flow 19-234] Refreshing IP repositories
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.oopen_project: Time (s): cpu = 00:00:36 ; elapsed = 00:00:21 . Memory (MB): peak = 1465.492 ; gain = 419.750uupdate_compile_order -fileset sources_1exit
-INFO: [Common 17-206] Exiting Vivado at Tue Dec 30 22:02:17 2025...
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.oopen_project: Time (s): cpu = 00:00:38 ; elapsed = 00:00:18 . Memory (MB): peak = 1471.887 ; gain = 427.512
+update_compile_order -fileset sources_1cexit
+INFO: [Common 17-206] Exiting Vivado at Sun Jan 11 20:23:35 2026...
+/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/temporizador_botones.vhd} w ]
+add_files {{C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/temporizador_botones.vhd}}
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\TOP.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\registro.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\temporizador_botones.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\registro.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\registro.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\TOP.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\registro.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\temporizador_botones.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\temporizador_botones.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\temporizador_botones.vhd:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\TOP.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\registro.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\temporizador_botones.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\registro.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\registro.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\TOP.vhd:]
+synth_design -top TOP -part xc7a100tcsg324-1 -lint 
+Command: synth_design -top TOP -part xc7a100tcsg324-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 28160
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1952.082 ; gain = 417.664
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-638] synthesizing module 'TOP' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:16]
+INFO: [Synth 8-3491] module 'SYNC' declared at 'C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/SYNC.vhd:5' bound to instance 'inst_SYNC_SUMA' of component 'SYNC' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'SYNC' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/SYNC.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'SYNC' (1#1) [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/SYNC.vhd:13]
+INFO: [Synth 8-3491] module 'SYNC' declared at 'C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/SYNC.vhd:5' bound to instance 'inst_SYNC_RESTA' of component 'SYNC' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:72]
+	Parameter PERIODO_MS bound to: 50 - type: integer 
+INFO: [Synth 8-637] synthesizing blackbox instance 'inst_TEMP_SUMA' of component 'TEMPORIZADOR_BOTONES' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:91]
+	Parameter PERIODO_MS bound to: 50 - type: integer 
+INFO: [Synth 8-637] synthesizing blackbox instance 'inst_TEMP_RESTA' of component 'TEMPORIZADOR_BOTONES' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:100]
+INFO: [Synth 8-3491] module 'registro' declared at 'C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/registro.vhd:6' bound to instance 'inst_REGISTRO' of component 'REGISTRO' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:110]
+INFO: [Synth 8-638] synthesizing module 'registro' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/registro.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'registro' (2#1) [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/registro.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'TOP' (3#1) [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:16]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2059.219 ; gain = 524.801
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Jan 11 20:31:04 2026
+| Host         : DESKTOP-R0MFH1K running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
 
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++-----------+----------+--------------+----------+
+| Rule ID   | Severity | # Violations | # Waived |
++-----------+----------+--------------+----------+
+| ASSIGN-6  | WARNING  | 2            | 0        |
+| ASSIGN-10 | WARNING  | 3            | 0        |
++-----------+----------+--------------+----------+
+
+
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'tick_resta_i' was assigned but not read. 
+RTL Name 'tick_resta_i', Hierarchy 'TOP', File 'C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd', Line 24.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'tick_suma_i' was assigned but not read. 
+RTL Name 'tick_suma_i', Hierarchy 'TOP', File 'C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd', Line 23.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'clk' are not read. First unread bit index is 0. 
+RTL Name 'clk', Hierarchy 'TOP', File 'TOP.vhd', Line 47.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'enable' are not read. First unread bit index is 0. 
+RTL Name 'enable', Hierarchy 'TOP', File 'TOP.vhd', Line 49.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'rst_n' are not read. First unread bit index is 0. 
+RTL Name 'rst_n', Hierarchy 'TOP', File 'TOP.vhd', Line 48.
+INFO: [Synth 37-85] Total of 5 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2059.219 ; gain = 524.801
+INFO: [Common 17-83] Releasing license: Synthesis
+18 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2059.219 ; gain = 524.801
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\TOP.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\registro.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\temporizador_botones.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\registro.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\registro.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\TOP.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\registro.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\temporizador_botones.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\temporizador_botones.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\temporizador_botones.vhd:]
+synth_design -top TOP -part xc7a100tcsg324-1 -lint 
+Command: synth_design -top TOP -part xc7a100tcsg324-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2059.219 ; gain = 0.000
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-638] synthesizing module 'TOP' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:16]
+INFO: [Synth 8-3491] module 'SYNC' declared at 'C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/SYNC.vhd:5' bound to instance 'inst_SYNC_SUMA' of component 'SYNC' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'SYNC' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/SYNC.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'SYNC' (1#1) [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/SYNC.vhd:13]
+INFO: [Synth 8-3491] module 'SYNC' declared at 'C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/SYNC.vhd:5' bound to instance 'inst_SYNC_RESTA' of component 'SYNC' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:72]
+	Parameter PERIODO_MS bound to: 50 - type: integer 
+INFO: [Synth 8-637] synthesizing blackbox instance 'inst_TEMP_SUMA' of component 'TEMPORIZADOR_BOTONES' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:91]
+	Parameter PERIODO_MS bound to: 50 - type: integer 
+INFO: [Synth 8-637] synthesizing blackbox instance 'inst_TEMP_RESTA' of component 'TEMPORIZADOR_BOTONES' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:100]
+INFO: [Synth 8-3491] module 'registro' declared at 'C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/registro.vhd:6' bound to instance 'inst_REGISTRO' of component 'REGISTRO' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:110]
+INFO: [Synth 8-638] synthesizing module 'registro' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/registro.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'registro' (2#1) [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/registro.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'TOP' (3#1) [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:16]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2078.117 ; gain = 18.898
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Jan 11 20:31:19 2026
+| Host         : DESKTOP-R0MFH1K running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++-----------+----------+--------------+----------+
+| Rule ID   | Severity | # Violations | # Waived |
++-----------+----------+--------------+----------+
+| ASSIGN-10 | WARNING  | 3            | 0        |
++-----------+----------+--------------+----------+
+
+
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'clk' are not read. First unread bit index is 0. 
+RTL Name 'clk', Hierarchy 'TOP', File 'TOP.vhd', Line 47.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'enable' are not read. First unread bit index is 0. 
+RTL Name 'enable', Hierarchy 'TOP', File 'TOP.vhd', Line 49.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'rst_n' are not read. First unread bit index is 0. 
+RTL Name 'rst_n', Hierarchy 'TOP', File 'TOP.vhd', Line 48.
+INFO: [Synth 37-85] Total of 3 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2078.117 ; gain = 18.898
+INFO: [Common 17-83] Releasing license: Synthesis
+16 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2078.117 ; gain = 18.898
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: TOP
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Device 21-9227] Part: xc7a100tcsg324-1 does not have CEAM library.
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2385.410 ; gain = 122.082
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'TOP' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:16]
+INFO: [Synth 8-3491] module 'SYNC' declared at 'C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/SYNC.vhd:5' bound to instance 'inst_SYNC_SUMA' of component 'SYNC' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'SYNC' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/SYNC.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'SYNC' (0#1) [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/SYNC.vhd:13]
+INFO: [Synth 8-3491] module 'SYNC' declared at 'C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/SYNC.vhd:5' bound to instance 'inst_SYNC_RESTA' of component 'SYNC' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:72]
+	Parameter PERIODO_MS bound to: 50 - type: integer 
+INFO: [Synth 8-637] synthesizing blackbox instance 'inst_TEMP_SUMA' of component 'TEMPORIZADOR_BOTONES' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:91]
+	Parameter PERIODO_MS bound to: 50 - type: integer 
+INFO: [Synth 8-637] synthesizing blackbox instance 'inst_TEMP_RESTA' of component 'TEMPORIZADOR_BOTONES' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:100]
+INFO: [Synth 8-3491] module 'registro' declared at 'C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/registro.vhd:6' bound to instance 'inst_REGISTRO' of component 'REGISTRO' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:110]
+INFO: [Synth 8-638] synthesizing module 'registro' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/registro.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'registro' (0#1) [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/registro.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'TOP' (0#1) [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:16]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2483.121 ; gain = 219.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2504.016 ; gain = 240.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2504.016 ; gain = 240.688
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2504.016 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/constrs_1/imports/Downloads/Nexys-4-DDR-Master.xdc]
+Finished Parsing XDC File [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/constrs_1/imports/Downloads/Nexys-4-DDR-Master.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2599.000 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 2618.762 ; gain = 355.434
+16 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:15 . Memory (MB): peak = 2618.762 ; gain = 540.645
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\TOP.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\registro.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\temporizador_botones.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\registro.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\registro.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\TOP.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\registro.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\temporizador_botones.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\temporizador_botones.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\temporizador_botones.vhd:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\TOP.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\registro.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\temporizador_botones.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\registro.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\registro.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\TOP.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\registro.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\temporizador_botones.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\temporizador_botones.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.srcs\sources_1\new\temporizador_botones.vhd:]
+refresh_design
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2677.977 ; gain = 59.215
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'TOP' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:16]
+INFO: [Synth 8-3491] module 'SYNC' declared at 'C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/SYNC.vhd:5' bound to instance 'inst_SYNC_SUMA' of component 'SYNC' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'SYNC' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/SYNC.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'SYNC' (0#1) [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/SYNC.vhd:13]
+INFO: [Synth 8-3491] module 'SYNC' declared at 'C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/SYNC.vhd:5' bound to instance 'inst_SYNC_RESTA' of component 'SYNC' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:72]
+	Parameter PERIODO_MS bound to: 50 - type: integer 
+INFO: [Synth 8-3491] module 'TEMPORIZADOR_BOTONES' declared at 'C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/temporizador_botones.vhd:5' bound to instance 'inst_TEMP_SUMA' of component 'TEMPORIZADOR_BOTONES' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:91]
+INFO: [Synth 8-638] synthesizing module 'TEMPORIZADOR_BOTONES' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/temporizador_botones.vhd:17]
+	Parameter PERIODO_MS bound to: 50 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'TEMPORIZADOR_BOTONES' (0#1) [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/temporizador_botones.vhd:17]
+	Parameter PERIODO_MS bound to: 50 - type: integer 
+INFO: [Synth 8-3491] module 'TEMPORIZADOR_BOTONES' declared at 'C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/temporizador_botones.vhd:5' bound to instance 'inst_TEMP_RESTA' of component 'TEMPORIZADOR_BOTONES' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:100]
+INFO: [Synth 8-3491] module 'registro' declared at 'C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/registro.vhd:6' bound to instance 'inst_REGISTRO' of component 'REGISTRO' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:110]
+INFO: [Synth 8-638] synthesizing module 'registro' [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/registro.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'registro' (0#1) [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/registro.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'TOP' (0#1) [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/TOP.vhd:16]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2779.070 ; gain = 160.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2796.965 ; gain = 178.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2796.965 ; gain = 178.203
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2811.504 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/constrs_1/imports/Downloads/Nexys-4-DDR-Master.xdc]
+Finished Parsing XDC File [C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/constrs_1/imports/Downloads/Nexys-4-DDR-Master.xdc]
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 2811.504 ; gain = 192.742

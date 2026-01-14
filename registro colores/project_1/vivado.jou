@@ -3,10 +3,10 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Tue Dec 30 21:42:59 2025
-# Process ID: 8376
+# Start of session at: Sun Jan 11 20:15:07 2026
+# Process ID: 7260
 # Current directory: C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13908 C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16232 C:\Users\Usuario\Downloads\2025_2026\sed\trabajo_vhdl\github\Proyecto-Nexys\registro colores\project_1\project_1.xpr
 # Log file: C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/vivado.log
 # Journal file: C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1\vivado.jou
 # Running On        :DESKTOP-R0MFH1K
@@ -19,6 +19,14 @@
 # Host memory       :16858 MB
 # Swap memory       :3355 MB
 # Total Virtual     :20213 MB
-# Available Virtual :7839 MB
-#-----------------------------------------------------------sstart_guiopen_project {C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.xpr}
-uupdate_compile_order -fileset sources_1
+# Available Virtual :8060 MB
+#-----------------------------------------------------------
+sstart_guioopen_project {C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.xpr}uupdate_compile_order -fileset sources_1close [ open {C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/temporizador_botones.vhd} w ]
+add_files {{C:/Users/Usuario/Downloads/2025_2026/sed/trabajo_vhdl/github/Proyecto-Nexys/registro colores/project_1/project_1.srcs/sources_1/new/temporizador_botones.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -top TOP -part xc7a100tcsg324-1 -lint 
+synth_design -top TOP -part xc7a100tcsg324-1 -lint 
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+update_compile_order -fileset sources_1
+refresh_design
