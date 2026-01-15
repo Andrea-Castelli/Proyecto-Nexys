@@ -46,7 +46,7 @@ process(clk_p)
 begin
 if rising_edge(clk_p) then
   if contador = 15 then
-    contador <= 15; --mantener en el maximo
+    contador <= 0; 
   else 
     contador <= contador + 1;
   end if;

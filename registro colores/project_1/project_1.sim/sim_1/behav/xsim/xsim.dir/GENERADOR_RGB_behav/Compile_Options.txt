@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "GENERADOR_RGB_behav" "xil_defaultlib.GENERADOR_RGB" -log "elaborate.log" 

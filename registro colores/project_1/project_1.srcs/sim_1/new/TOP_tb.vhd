@@ -3,10 +3,10 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
-entity TOP_TB is
-end TOP_TB;
+entity BLOQUE_REGISTRO_TB is
+end BLOQUE_REGISTRO_TB;
 
-architecture Behavioral of TOP_TB is
+architecture Behavioral of BLOQUE_REGISTRO_TB is
     -- Señales del testbench
     signal clk_tb       : std_logic := '0';
     signal rst_tb       : std_logic := '0';
@@ -15,7 +15,7 @@ architecture Behavioral of TOP_TB is
     
     constant CLK_PERIOD : time := 10 ns;
     
-    component TOP
+    component BLOQUE_REGISTRO
         port (
             rst       : in std_logic;
             clk       : in std_logic;
@@ -25,7 +25,7 @@ architecture Behavioral of TOP_TB is
     end component;
     
 begin
-    DUT: TOP port map (
+    DUT: BLOQUE_REGISTRO port map (
         rst => rst_tb,
         clk => clk_tb,
         pushbutton => pushbutton_tb,

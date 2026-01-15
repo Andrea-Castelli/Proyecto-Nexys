@@ -1,7 +1,7 @@
 Vivado Simulator v2024.1
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TOP_TB_behav xil_defaultlib.TOP_TB -log elaborate.log 
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot GENERADOR_RGB_tb_behav xil_defaultlib.GENERADOR_RGB_tb -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -11,11 +11,14 @@ Time Resolution for simulation is 1ps
 Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
-Compiling package ieee.std_logic_arith
-Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
 Compiling architecture behavioral of entity xil_defaultlib.SYNC [sync_default]
-Compiling architecture behavioral of entity xil_defaultlib.DETECTOR_FLANCO [detector_flanco_default]
+Compiling architecture behavioral of entity xil_defaultlib.TEMPORIZADOR_BOTONES [\TEMPORIZADOR_BOTONES(periodo_ms...]
 Compiling architecture behavioral of entity xil_defaultlib.registro [registro_default]
-Compiling architecture behavioral of entity xil_defaultlib.TOP [top_default]
-Compiling architecture behavioral of entity xil_defaultlib.top_tb
-Built simulation snapshot TOP_TB_behav
+Compiling architecture behavioral of entity xil_defaultlib.BLOQUE_REGISTRO [bloque_registro_default]
+Compiling architecture behavioral of entity xil_defaultlib.prescaler [prescaler_default]
+Compiling architecture behavioral of entity xil_defaultlib.pwm [pwm_default]
+Compiling architecture structural of entity xil_defaultlib.BLOQUE_PWM [bloque_pwm_default]
+Compiling architecture structural of entity xil_defaultlib.GENERADOR_RGB [generador_rgb_default]
+Compiling architecture sim of entity xil_defaultlib.generador_rgb_tb
+Built simulation snapshot GENERADOR_RGB_tb_behav

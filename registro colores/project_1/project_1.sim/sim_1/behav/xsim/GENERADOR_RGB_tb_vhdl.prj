@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/new/GENERADOR_RGB.vhd" \
+"../../../../project_1.srcs/sources_1/new/PRESCALER.vhd" \
+"../../../../project_1.srcs/sources_1/new/PWM.vhd" \
+"../../../../project_1.srcs/sources_1/new/SYNC.vhd" \
+"../../../../project_1.srcs/sources_1/new/TOP.vhd" \
+"../../../../project_1.srcs/sources_1/new/TOP_PWM.vhd" \
+"../../../../project_1.srcs/sources_1/new/registro.vhd" \
+"../../../../project_1.srcs/sources_1/new/temporizador_botones.vhd" \
+"../../../../project_1.srcs/sim_1/new/GENERADOR_TB.vhd" \
+
+# Do not sort compile order
+nosort

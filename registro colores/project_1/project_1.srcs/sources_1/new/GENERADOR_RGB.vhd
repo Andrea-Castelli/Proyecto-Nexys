@@ -36,7 +36,7 @@ architecture Structural of GENERADOR_RGB is
 
     component BLOQUE_REGISTRO is
         port (
-            rst              : in std_logic;
+            rst_n              : in std_logic;
             clk              : in std_logic;
             pushbutton_suma  : in std_logic;
             pushbutton_resta : in std_logic;
@@ -56,7 +56,7 @@ begin
 
     inst_registro : BLOQUE_REGISTRO
         port map (
-            rst              => rst_n,
+            rst_n              => rst_n,
             clk              => clk_placa,
             pushbutton_suma  => boton_suma,
             pushbutton_resta => boton_resta,

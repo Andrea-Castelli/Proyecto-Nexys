@@ -16,7 +16,7 @@ end TEMPORIZADOR_BOTONES;
 
 architecture Behavioral of TEMPORIZADOR_BOTONES is
     constant FREC_CLK : integer := 1_000_000; --ver si cambiamos
-    constant CICLOS : integer := (FREC_CLK * PERIODO_MS) / 1000; 
+    constant CICLOS : integer := 100;--(FREC_CLK * PERIODO_MS) / 1000; 
     
     signal contador : integer range 0 to CICLOS-1 := 0;
     signal tick_i   : std_logic := '0';

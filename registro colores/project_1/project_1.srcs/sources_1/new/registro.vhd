@@ -1,7 +1,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.STD_LOGIC_ARITH.ALL;
-use IEEE.STD_LOGIC_UNSIGNED.ALL;
+use IEEE.NUMERIC_STD.ALL;
 
 entity registro is
 port(
@@ -15,7 +14,7 @@ port(
 end registro;
 
 architecture Behavioral of registro is
-    signal cuenta_i: std_logic_vector(3 downto 0):= (others => '0'); --inicializo a 0
+    signal cuenta_i: unsigned(3 downto 0):= (others => '0'); --inicializo a 0
 begin
 
     process(clk, rst_n)

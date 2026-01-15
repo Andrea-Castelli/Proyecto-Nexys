@@ -5,7 +5,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity BLOQUE_REGISTRO is
  port (
-    rst : in std_logic;
+    rst_n : in std_logic;
     clk : in std_logic;
     pushbutton_suma : in std_logic;
     pushbutton_resta : in std_logic;
@@ -64,13 +64,13 @@ begin
 
 contador<= contador_i;
 inst_SYNC_SUMA: SYNC port map(
-    CLK => CLK,
+    CLK => clk,
     ASYNC_IN => pushbutton_suma,
     SYNC_OUT => sync_suma_i
 );
 
 inst_SYNC_RESTA: SYNC port map(
-    CLK => CLK,
+    CLK => clk,
     ASYNC_IN => pushbutton_resta,
     SYNC_OUT => sync_resta_i
 );
@@ -92,7 +92,7 @@ inst_SYNC_RESTA: SYNC port map(
         generic map (PERIODO_MS => 50)
         port map (
             clk    => clk,
-            rst_n  => rst,
+            rst_n  => rst_n,
             enable => sync_suma_i,
             tick   => tick_suma_i
         );
@@ -101,7 +101,7 @@ inst_SYNC_RESTA: SYNC port map(
         generic map (PERIODO_MS => 50)
         port map (
             clk    => clk,
-            rst_n  => rst,
+            rst_n  => rst_n,
             enable => sync_resta_i,
             tick   => tick_resta_i
         );
@@ -112,7 +112,7 @@ inst_REGISTRO: REGISTRO PORT MAP (
     cuenta => contador_i,
     CE_SUMA => tick_suma_i,
     CE_RESTA => tick_resta_i,
-    RST_N => rst
+    RST_N => rst_n
         );
 
 end Behavioral;

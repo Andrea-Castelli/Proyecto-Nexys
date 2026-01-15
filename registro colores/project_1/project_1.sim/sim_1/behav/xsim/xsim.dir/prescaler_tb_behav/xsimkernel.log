@@ -1,0 +1,7 @@
+Running: xsim.dir/prescaler_tb_behav/xsimk.exe -simmode gui -wdb prescaler_tb_behav.wdb -simrunnum 0 -socket 64718
+Design successfully loaded
+Design Loading Memory Usage: 10916 KB (Peak: 10916 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 19408 KB (Peak: 19408 KB)
+Simulation CPU Usage: 437 ms
