@@ -3,7 +3,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 
-entity TOP is
+entity BLOQUE_REGISTRO is
  port (
     rst : in std_logic;
     clk : in std_logic;
@@ -11,9 +11,9 @@ entity TOP is
     pushbutton_resta : in std_logic;
     contador : out std_logic_vector(3 downto 0)
  );
-end TOP;
+end BLOQUE_REGISTRO;
 
-architecture Behavioral of TOP is
+architecture Behavioral of BLOQUE_REGISTRO is
     signal sync_suma_i: std_logic;
     --signal edge_suma_i: std_logic;
     signal sync_resta_i: std_logic;
