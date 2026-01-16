@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri Jan 16 12:19:42 2026
+# Process ID         : 13356
+# Current directory  : C:/Users/Jesusico/Downloads/UNI/Proyecto-Nexys/registro colores/project_1/project_1.runs/synth_1
+# Command line       : vivado.exe -log GENERADOR_RGB.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source GENERADOR_RGB.tcl
+# Log file           : C:/Users/Jesusico/Downloads/UNI/Proyecto-Nexys/registro colores/project_1/project_1.runs/synth_1/GENERADOR_RGB.vds
+# Journal file       : C:/Users/Jesusico/Downloads/UNI/Proyecto-Nexys/registro colores/project_1/project_1.runs/synth_1\vivado.jou
+# Running On         : JesusicoPC
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13700H
+# CPU Frequency      : 2918 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 31890 MB
+# Swap memory        : 2013 MB
+# Total Virtual      : 33904 MB
+# Available Virtual  : 16798 MB
+#-----------------------------------------------------------
+source GENERADOR_RGB.tcl -notrace

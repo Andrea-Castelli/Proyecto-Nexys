@@ -31,13 +31,13 @@ architecture Behavioral of BLOQUE_REGISTRO is
          );
     end component;
     
---    component DETECTOR_FLANCO
---        port (
---            CLK : in std_logic;
---            SYNC_IN : in std_logic;
---            EDGE : out std_logic
---        );
---    end component;
+    component DETECTOR_FLANCO
+        port (
+            CLK : in std_logic;
+            SYNC_IN : in std_logic;
+            EDGE : out std_logic
+        );
+    end component;
     
     component TEMPORIZADOR_BOTONES
         generic (
